@@ -1,0 +1,44 @@
+body {
+    align-items: center;
+    background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+#gameArea {
+    width: 80%;
+    height: 400px;
+    border: 2px dashed #ff6f61; /* Playful border */
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+}
+
+.card-message {
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9); /* Card background */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    width: 150px; /* Set a size for the images */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#customMessage {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6f61; /* Fun text color */
+}
